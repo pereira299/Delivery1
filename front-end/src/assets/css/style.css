@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.header-text{
+    font-family: 'Caveat', cursive;
+}
+
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.sample-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    outline: none;
+}
+
+body{
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+input.pesquisa{
+    border-bottom: #235fad;
+    height: 100%;
+    color: #ffffff;
+    
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: unset;
+    background: none;
+}
+.rounded-xs{
+    border-radius: 20px;
+}
+
+.pesquisa::placeholder{
+    color: #ffffff
+}
